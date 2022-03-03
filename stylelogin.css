@@ -95,20 +95,29 @@ h3 {
 }
 
 .notification.is-danger {
-    background-color: #ff3860;
-    color: #fff;
+    background-color: #f7d7da;
+    color: #ad737c;
+    font-weight: 700;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 8px;
+    text-align: center;
 }
 
 .notification.is-success {
     background-color: #23d160;
     color: #fff;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 8px;
+    text-align: center;
 }
 
 .notification.is-info {
     background-color: #209cee;
     color: #fff;
-}
-
-.makeStyles-arrow-14 {
-    color: #6d076d;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 8px;
+    text-align: center;
 }

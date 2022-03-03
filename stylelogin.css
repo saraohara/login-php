@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "League Spartan", sans-serif;
+    font-size: medium;
+}
+.conteinerPrincipalHome {
+    box-direction: normal !important;
+    box-orient: horizontal !important;
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.conteinerSecondary {
+    box-direction: normal !important;
+    box-orient: vertical !important;
+    box-align: center !important;
+    box-pack: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    width: 55vw !important;
+    background-color: #6d076d !important;
+    min-height: 100vh !important;
+}
+
+.conteinerTertiary {
+    -webkit-box-align: center !important;
+    -webkit-box-pack: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 45vw !important;
+}
+
+.conteinerQuarticiario {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.conteinerQuinary {
+    -webkit-box-align: center !important;
+    -webkit-box-direction: normal !important;
+    -webkit-box-orient: vertical !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+
+input {
+    width: 280px;
+    height: 50px;
+    margin: 2% auto;
+    outline: none;
+    padding: 0 20px;
+    border: solid 2px;
+    transition: all 0.2s linear;
+    font-weight: 700;
+    border-radius: 5px;
+    letter-spacing: 0.05em;
+    justify-content: inherit;
+    border-color: #ffe524;
+}
+
+button {
+    color: #fdfdff;
+    width: 324px;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    margin: 7% auto;
+    outline: none;
+    padding: 0 20px;
+    background: #6d076d;
+    text-align: center;
+    transition: all 0.2s linear;
+    font-weight: 700;
+    border-radius: 5px;
+    letter-spacing: 0.05em;
+    justify-content: inherit;
+}
+
+button:active {
+    background-color: yellow;
+    color: #6d076d;
+    font-weight: 700;
+}
+
+h3 {
+    text-align: center;
+    color: #6d076d;
+    font-weight: 700;
+}
+
+.notification.is-danger {
+    background-color: #ff3860;
+    color: #fff;
+}
+
+.notification.is-success {
+    background-color: #23d160;
+    color: #fff;
+}
+
+.notification.is-info {
+    background-color: #209cee;
+    color: #fff;
+}
+
+.makeStyles-arrow-14 {
+    color: #6d076d;
+}

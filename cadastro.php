@@ -42,7 +42,7 @@
                         variant="outlined" type="submit" required fullWidth>Cadastre-se</button>
                 </form>
             </section>
-        </div>
+        <div/>
     </div>
 
 <body/>

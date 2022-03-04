@@ -14,13 +14,13 @@
     <link rel="shortcut icon" href="img/favicon.ico" />
     <link href="stylelogin.css" rel="stylesheet">
     <title>Jeito Lindo - Rede Social</title>
-<head/>
+</head>
 
 <body>
     <div class="conteinerPrincipalHome">
         <div class="conteinerSecondary">
             <img src="img/logo-principal.png" alt="Logo">
-        <div/>
+        </div>
         <div class="conteinerTertiary">
 
             <section class="conteinerQuarticiario">
@@ -42,9 +42,9 @@
                         variant="outlined" type="submit" required fullWidth>Cadastre-se</button>
                 </form>
             </section>
-        <div/>
+        </div>
     </div>
 
-<body/>
+</body>
 
-<html/>
+</html>
